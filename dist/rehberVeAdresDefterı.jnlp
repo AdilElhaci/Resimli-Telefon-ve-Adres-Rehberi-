@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="rehberVeAdresDefterý.jnlp">
+  <information>
+    <title>rehberVeAdresDefterý</title>
+    <vendor>furka</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="rehberVeAdresDefterý.jar" size="5518" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="rehberVeAdresDefterý" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="rehberveadresdefterý.RehberVeAdresDefterý"  name="rehberVeAdresDefterý" />
+  <update check="always"/>
+</jnlp>
