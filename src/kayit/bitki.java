@@ -1,23 +1,27 @@
 package kayit;
 
-public  class bitki extends eklenecekVarlik{
-    private String renk;
-    private double boyu;
-    private String kokusu;
+public  class bitki {
     
-    public bitki (String eklenecek_tamIsim, int yas, String eklenecek_foto,String renk,double boyu)
-    {
-        super(eklenecek_tamIsim, yas, eklenecek_foto, "bitki");
-        this.boyu=boyu;
-        this.renk=renk;        
+  
+    private int yas;
+    private double boyu;
+    private String nesneTuru;
+    private String renk; 
+
+    public bitki(String isim, int yas, double boyu,String renk) {
+      
+        this.yas = yas;
+        this.boyu = boyu;
+        this.nesneTuru="bitki";
+        this.renk=renk;
     }
 
-    public String getRenk() {
-        return renk;
+    public int getYas() {
+        return yas;
     }
 
-    public void setRenk(String renk) {
-        this.renk = renk;
+    public void setYas(int yas) {
+        this.yas = yas;
     }
 
     public double getBoyu() {
@@ -27,6 +31,6 @@ public  class bitki extends eklenecekVarlik{
     public void setBoyu(double boyu) {
         this.boyu = boyu;
     }
-
+    
     
 }
